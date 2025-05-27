@@ -2,9 +2,9 @@ name: Build iOS App for Device (SolidJS)
 
 on:
   push:
-    branches: [gha/ios-build]
+    branches: [gha/main]
   pull_request:
-    branches: [gha/ios-build]
+    branches: [gha/main]
   workflow_dispatch:
 
 jobs:
